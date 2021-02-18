@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--font for landing page and other-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Satisfy&display=swap" rel="stylesheet">
+    <!--font for quote and other-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Staatliches&display=swap" rel="stylesheet">
+    <!--animation effects from https://animate.style/#documentation-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <!--bootstrap library link-->
+    <!-- CSS only  Bootsrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="../Main.css">
+    <title>About Me</title>
+</head>
+<body  onload="myLoad()">
+    <!--transparent header-->
+    <header class="about-header-wrapper">
+        <div class="about-header-container">
+            <button type="button" class="btn btn-outline-secondary about-btn-1">
+                <a href="../index.html" class="back-to-landingpage-text">HOME</a> <!-- back to landing page -->
+            </button> <!-- buttons from bootstrap and modified -->
+            <button type="button" class="btn btn-outline-secondary about-btn-3">
+                <a href="../html/morefishing.html" class="back-to-landingpage-text">More On Fishing</a> <!-- back to landing page -->
+            </button>
+            <button type="button" class="btn btn-outline-secondary about-btn-2">
+                <a href="../html/saveForLater.html" class="back-to-landingpage-text">Saved Items</a> <!--to page more about fishing -->
+            </button>
+            <div class="about-header">
+                <h1 class="about-header-text">ABOUT ME</h1>
+            </div>
+        </div>
+    </header>
+    <main>
+        <!-- card 1-->
+        <div class="about-card-1-wrapper"> <!-- holds all parts of card 1-->
+            <div class="about-card-1-container"> <!--contains all items-->
+                <div class="about-card-1-text-container"><!--contains text-->
+                    <h1 class="about-card-1-header animate__animated animate__backInRight"> <!--animations from another site link is below-->
+                         Where I'm From...
+                    </h1>
+                    <p class="about-card-1-text animate__animated animate__backInLeft"> <!--animations from another site link is below-->
+                        Hi there, my name is Willem and welcome to my corner of the woods. I grew up on my parents farm and times were often tough,
+                        so there wasn't always money for fancy cars and fancy toys etc. We did however have fishing rods! As a farmer's son I had
+                        little time to myself to do what I want or to do the things that most kids do. I had plenty of chores and always had to carry 
+                        my weight. If it wasn't school work that needs doing, it was farming work.
+                    </p>
+                    <p class="about-card-1-text animate__animated animate__backInLeft"> <!--animations from another site link is below-->
+                        Time to time, however, my father gave me some time off to do anything I wanted, so I went fishing with my Grandfather who loves 
+                        fishing as much as I do! Everything I know about fishing I learned from him. Fishing has tought me many things such as 
+                        patience, how important it is to spend time with family and that there is no better way to learn things than by teaching yourself. 
+                        With all that said, I really hope that my website will inspire and encourage you to go do a little fishing.</br>
+                        </br>
+                    </p>
+                    <div class="text-btn1">
+                        <button id="about-button-1" type="button" class="btn btn-outline-secondary text-saveButton1">
+                            Save for Later
+                        </button>
+                    </div>
+                    <div id="about-heart-1" class='likeButton3 heart'></div>
+                </div>
+                <div class="about-card-1-img-container"> <!--image container-->
+                    <img src="../img/20180901_180909.jpg" alt="#" class="about-card-1-img">
+                    <div class="img-btn-bottomRight"> <!-- adding buttons for if user wants to move it to saved folder -->
+                        <button id="about-button-2" type="button" class="btn btn-outline-secondary img-saveButton1">
+                            Save for Later
+                        </button>
+                    </div>
+                    <div id="about-heart-2" class='likeButton2 heart'></div> <!--adding a toggle heart using only css all hearts have their own id's-->
+                </div>
+            </div>
+        </div>
+            <!--card 2-->
+        <div class="about-card-2-wrapper">
+            <div class="about-card-2-container">
+                <div class="about-card-2-text-container">
+                    <h1 class="about-card-2-header animate__animated animate__backInLeft">Where am I Now...</h1>
+                    <p class="about-card-2-text animate__animated animate__backInRight">
+                        Okay, so, I've told you about my younger days on the farm and how hard I worked. Luckily it paid off! My Father tought me 
+                        how to be a hard worker just as he was and that has stuck with me all my life. After School my father told me: "No matter 
+                        what, I will pay for your studies so that you won't struggle or have any dept." and he kept true to his promise.
+                    </p>
+                    <p class="about-card-2-text animate__animated animate__backInRight">
+                        I studied Engineering for five long years to get my Diploma and Bachelors. Yes, I am a qualified Mechatronic Engineer! For 
+                        3 years throughout my professional career I worked as an Automation Engineer for various companies. During those three years, 
+                        though, I eventually I lost my passion for Engineering and so I searched for something similar to it, but with less travelling, 
+                        more family time and more me time.
+                    </p>
+                    <p class="about-card-2-text animate__animated animate__backInRight">
+                        One day, a friend who studied Engineering with me wanted to meet up. We talked about our careers and felt we had jobs but
+                        no passions for what we were doing, so  I guess you could say that we were "in the same boat". Both of us decided on finding someting new to do and we started to do free courses on
+                        Web Development. I enjoyed it very much and so I enrolled at a Web Development bootcamp. So now I am studying Web Development 
+                        and thus this Website was born!</br>
+                    </br>
+                    </p>
+                    <div class="text-btn2">
+                        <button id="about-button-3" type="button" class="btn btn-outline-secondary text-saveButton2">
+                            Save for Later
+                        </button>
+                    </div>
+                    <div id="about-heart-3" class='likeButton4 heart'></div>
+                </div>
+                <div class="about-card-2-img-container">
+                    <img src="../img/20210108_073212.jpg" alt="#" class="about-card-2-img">
+                    <div class="img-btn-bottomLeft"><!-- adding buttons for if user wants to move it to saved folder -->
+                        <button id="about-button-4" type="button" class="btn btn-outline-secondary img-saveButton2">
+                            Save for Later
+                        </button>
+                    </div>
+                    <div id="about-heart-4" class='likeButton4 heart'></div><!--adding a toggle heart using only css all hearts have their own id's-->
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> <!-- Juery lib from google-->
+    <script type="text/javascript" src="../scripts/aboutMe.js"></script><!--about me .js src-->
+    <script type="text/javascript" src="../scripts/Jquery.js"></script><!--Jquery for whole page-->
+</body>
+</html>
+
+<!-- Here I spent more time playing with sass and css, also to test how to use divs properly.
+It helped me a lot to understand where to have the content in html and where not to.
+yet again this about me page was purely for learning and not so much for making it look amazing
+I did however try to make it look better by using all my knowledge this far.
+
+I used the following sources to make the about page
+
+https://getbootstrap.com/docs/5.0/components/buttons/ used for the buttons
+https://animate.style/#documentation mainly to play with animations
+https://coolors.co/palettes/trending used for good color choices
+-->

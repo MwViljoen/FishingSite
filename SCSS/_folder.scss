@@ -1,0 +1,24 @@
+// creating a grid for save folder 
+
+#imageGrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    img{
+        width: 100%;
+        height: 30em;
+        object-fit: cover;
+        border-radius: 15px;
+        padding: 2px;
+    }
+}
+// link attributes
+#links{
+    text-align: center;
+}
+// for articles
+#articles{
+    p{
+        padding: 0 10px 0 10px;
+    }
+}

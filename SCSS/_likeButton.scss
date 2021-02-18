@@ -1,0 +1,93 @@
+// https://codepen.io/bnewton/pen/KrbLkx   following this method to make a.heart shape. 
+// most videos and tutorials are using the same methods
+// buttons may get different attributes this a different class has been created with same subclasses
+.likeButton{
+    position: absolute;
+	width: 20px;
+	height: 20px;
+    bottom: -5px;
+	right: 130px;
+	border-radius: 5px;
+	background: none;
+	cursor: pointer;
+	transition: background 0.5s ease;
+}
+
+.active.heart:before,.active.heart:after{
+	background: red !important;
+}
+
+.heart {
+    width: 50px;
+    height: 45px;
+    transition: background 0.5s ease;
+}
+
+.heart:before,
+.heart:after {
+	transition: background 0.5s ease;
+    position: absolute;
+    content: "";
+    left: 20px;
+    top: 0;
+    width: 20px;
+    height: 30px;
+    background: white;
+    border-radius: 50px 50px 0 0;
+    transform: rotate(-45deg);
+    transform-origin: 0 100%;
+}
+
+.heart:after {
+    left: 0;
+    transform: rotate(45deg);
+    transform-origin :100% 100%;
+}
+// like button on different place
+.likeButton1{
+    position: absolute;
+	width: 20px;
+	height: 20px;
+    bottom: 20px;
+	left: 160px;
+	border-radius: 5px;
+	background: none;
+	cursor: pointer;
+	transition: background 0.5s ease;
+}
+
+.likeButton2{
+    position: absolute;
+	width: 20px;
+	height: 20px;
+    bottom: 28px;
+	right: 165px;
+	border-radius: 5px;
+	background: none;
+	cursor: pointer;
+	transition: background 0.5s ease;
+}
+
+.likeButton3{
+    position: absolute;
+	width: 20px;
+	height: 20px;
+    bottom: 20px;
+	left: 140px;
+	border-radius: 5px;
+	background: none;
+	cursor: pointer;
+	transition: background 0.5s ease;
+}
+
+.likeButton4{
+    position: absolute;
+	width: 20px;
+	height: 20px;
+    bottom: 30px;
+	left: 160px;
+	border-radius: 5px;
+	background: none;
+	cursor: pointer;
+	transition: background 0.5s ease;
+}

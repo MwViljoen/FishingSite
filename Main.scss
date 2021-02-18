@@ -1,0 +1,18 @@
+@import "./SCSS/colors";
+@import "./SCSS/fonts&sizes";
+@import "./SCSS/landingpage";
+@import "./SCSS/aboutme";
+@import "./SCSS/morefishing";
+@import "./SCSS/dropdownnav";
+@import "./SCSS/table";
+@import "./SCSS/newsletter";
+@import "./SCSS/folder";
+@import "./SCSS/likeButton";
+
+// deafault settings
+body{
+    margin: 0;
+    color: #ffffff;
+    background-color: color(primary);
+    font-family: $text-font;
+}

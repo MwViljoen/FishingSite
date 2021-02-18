@@ -1,0 +1,36 @@
+//https://www.w3schools.com/css/tryit.asp?filename=trycss_table_fancy used from here and edited
+
+#customers {
+    font-family: $text-font;
+    border-collapse: collapse;
+    width: 100%;
+    margin: 20px 10px
+  }
+  
+  #customers th {
+    border: 1px solid color(primary);
+    padding: 8px;
+    width: 50%;
+  }
+
+  #customers td {
+    position: relative;
+    border: 1px solid color(primary);
+    padding: 8px;
+
+    a{
+      text-align: right;
+    }
+  }
+  
+  #customers tr{background-color: color(primary);}
+  
+  #customers tr:hover {background-color: color(secondary);}
+  
+  #customers th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: rgba(color(primary),0.8);
+    color: color(text-primary);
+  }

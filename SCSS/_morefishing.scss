@@ -1,0 +1,228 @@
+// basic card setup
+.mof-story{
+    position: relative;
+    margin: 0;
+    z-index: 0;
+
+    .mof-card1-wrapper-padding{
+        padding-top: 70px;
+    }
+
+    .mof-card1-wrapper{
+        background-color: color(secondary);
+        margin-top: -63px;
+        margin-bottom: 75px;
+        width: 100%;
+        height: auto;
+        
+        .mof-card1-container{
+            color: color(test-primary);
+
+            .mof-card1-image-container{
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+
+                img{
+                    width: 100%;
+                    height: 400px;
+                    object-fit: cover;
+                    box-shadow: 10px 10px 10px 5px rgba(0,0,0,0.6);
+                    border-radius: 8px;
+                }
+            }
+
+            .mof-card1-text-container{
+                text-align: center;
+                padding-bottom: 10px;
+
+                .mof-text{
+                    position: relative;
+                    margin: 0px 10%;
+                    box-shadow: 10px 10px 10px 5px rgba(0,0,0,0.6);
+                    background-color: color(tertiary);
+                    border-radius: 2px;
+                    font-size: 20px;
+                    text-align: left;
+                    padding: 0px 20px 40px 0px;
+
+                    p{
+                        margin: 0 0 10px 20px
+                    }
+
+                    ul{
+                        text-align: left;
+                    }
+                }
+            }
+        }
+    }
+
+    .mof-wrapper-spacing{
+        margin-bottom: 0;
+    }
+
+    // card 2
+    .mof-card2-wrapper{
+        background-color: color(tertiary);
+        margin-top: -63px;
+        margin-bottom: 75px;
+        padding-top: 20px;
+        width: 100%;
+        height: auto;
+        
+        .mof-card2-container{
+            color: color(test-primary);
+
+            .mof-card2-image-container{
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+
+                img{
+                    width: 100%;
+                    height: 400px;
+                    object-fit: cover;
+                    box-shadow: 10px 10px 10px 5px rgba(0,0,0,0.6);
+                    border-radius: 8px;
+                }
+            }
+
+            .mof-card2-text-container{
+                text-align: center;
+                padding-bottom: 10px;
+
+                .mof-text{
+                    position: relative;
+                    margin: 0px 10%;
+                    box-shadow: 10px 10px 10px 5px rgba(0,0,0,0.6);
+                    background-color: color(secondary);
+                    border-radius: 2px;
+                    font-size: 20px;
+                    text-align: left;
+                    padding: 0px 20px 40px 0px;
+
+                    p{
+                        margin: 0 0 10px 20px
+                    }
+
+                    ul{
+                        text-align: left;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.mof-img-btn{
+    position: relative;
+
+    .mof-img-btn1{
+        position: absolute;
+        bottom: 5px;
+        right: 5px;
+        z-index: 10;
+    }
+    
+    .mof-img-btn-style1{
+        background: rgba(color(tertiary), 0.5);
+        border: 2px solid color(text-primary);
+        border-radius: 10px;
+        color: color(text-primary);
+        text-decoration: none;
+        box-shadow: none;
+    }
+
+    .mof-img-btn-style2{
+        background: rgba(color(secondary), 0.5);
+        border: 2px solid color(text-primary);
+        border-radius: 10px;
+        color: color(text-primary);
+        text-decoration: none;
+        box-shadow: none;
+    }
+
+    .mof-table-btn{
+        align-content: right;
+        position: absolute;
+        bottom: 5px;
+        right: 5px;
+        z-index: 10;
+    }
+}
+
+.mof-text-btn1{
+    position: absolute;
+    padding-left: 15px;
+    bottom: 5px;
+    left: 5px;
+    z-index: 10;
+
+    .mof-text-saveButton1{
+        background: rgba(color(tertiary), 0.5);
+        border: 2px solid color(text-primary);
+        border-radius: 10px;
+        color: color(text-primary);
+        text-decoration: none;
+        box-shadow: none;
+    }
+
+    .mof-text-saveButton2{
+        background: rgba(color(secondary), 0.5);
+        border: 2px solid color(text-primary);
+        border-radius: 10px;
+        color: color(text-primary);
+        text-decoration: none;
+        box-shadow: none;
+    }
+}
+
+#comments{
+    
+    p{
+        padding-left: 20px;
+    }
+}
+
+.mof-table-btn{
+    position: absolute;
+    right: 13px;
+    bottom: 3px;
+    z-index: 10;
+
+    .mof-text-saveButton3{
+        background: rgba(color(tertiary), 0.5);
+        border: 2px solid color(text-primary);
+        border-radius: 10px;
+        color: color(text-primary);
+        text-decoration: none;
+        box-shadow: none;
+    }
+}
+
+h2{
+    font-family: $header-font;
+    font-size: 50px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.mof-heading-spacing{
+    margin-top: 10px;
+}
+
+.mof-img-spacing{
+    margin-bottom: 20px;
+}
+
+.mof-card1-img-spacing{
+    padding-top: 20px;
+}
+
+.mof-wrapper-spacing{
+    margin-bottom: 0;
+}
+
+h4{
+    font-family: $header-font;
+    margin-left: 20px;
+}

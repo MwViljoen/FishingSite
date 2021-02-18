@@ -1,0 +1,89 @@
+.landing_page_container{
+    height: 100%;
+    background-size: cover;
+
+    .img_grid_container{
+        position: absolute;
+        display: grid;
+        grid-column-gap: 1px; /* remove column gaps from grid*/
+        grid-row-gap: 3px;/*add row gaps to grid of 2pixels*/
+        /* for some reason when i use repeat(2,1fr) for grid-template-columns and sass compiles it, it gives errors of some kind
+        so i just use 1fr 1fr then the problem is fixed*/
+        grid-template-columns: 1fr 1fr;/* 2 columns of 1fr which means that a picture will only occupy one column if 2 fr the picture will occupy 2 columns*/
+        background-color: transparent;
+        object-fit: cover;
+
+        .img_grid_item{
+            width: 100%;
+            height: 100%;
+            border-radius: 0.5em;
+            filter: blur(2.5px);
+        }
+    }
+
+    .landing-header-container{
+        font-family: $header-font;
+
+        .landing-header1{
+            font-weight: 600;
+            font-size: 160px;
+            margin-bottom: -50px;
+            text-align: center;
+        }
+
+        .landing-header2{
+            font-weight: 300;
+            font-size: 110px;
+            margin-top: 0;
+            text-align: center;
+        }
+    }
+
+    .button-container{
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+        position: relative;
+        left: 0;
+        right: 0;
+        top: 20em;
+
+        .web-buttons{
+            width: 100%;
+            height: 100%;
+            left: 0;
+            right: 0;
+
+            button{
+                position: relative;
+                flex-grow: 1;
+                flex-shrink: 1;
+                width: 14%;
+                margin-left: 24%;
+                border: 3px solid color(text-primary);
+                padding: auto;
+                background-color: rgba(color(tertiary),0.8);
+                box-shadow: 10px 10px 30px 20px rgba(0,0,0,0.6);
+
+                a{
+                    font-size: 1.3em;
+                    color: color(text-primary);
+                    text-decoration: none;
+                }
+            }
+
+            button:hover{
+                background-color: color(secondary);
+            }
+        }
+    }
+
+    .quote{
+        text-align: center;
+        font-family: $quote-header-font;
+
+        h4{
+            font-size: 35px;
+        }
+    }
+}

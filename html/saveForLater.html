@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--font for landing page and other-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Satisfy&display=swap" rel="stylesheet">
+    <!--font for quote and other-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Staatliches&display=swap" rel="stylesheet">
+    <!--animation effects from https://animate.style/#documentation-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <!--bootstrap library link-->
+    <!-- CSS only  Bootsrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="../Main.css">
+    <title>Saved Items</title>
+</head>
+<body onload="myLoad()">
+    <!--transparent header-->
+    <header class="about-header-wrapper">
+        <div class="about-header-container">
+            <button type="button" class="btn btn-outline-secondary about-btn-1">
+                <a href="../index.html" class="back-to-landingpage-text">HOME</a> <!-- back to landing page -->
+            </button> <!-- buttons from bootstrap and modified -->
+            <button type="button" class="btn btn-outline-secondary about-btn-3">
+                <a href="../html/morefishing.html" class="back-to-landingpage-text">More On Fishing</a> <!-- back to more in fishing -->
+            </button>
+            <button type="button" class="btn btn-outline-secondary about-btn-2">
+                <a href="../html/aboutme.html" class="back-to-landingpage-text">About Me</a> <!--abou tme page link -->
+            </button>
+            <div class="about-header">
+                <h1 class="about-header-text">Saved For Later</h1> <!-- heading for saved folder -->
+            </div>
+        </div>
+    </header>
+    <!-- saved Images-->
+    <div id="imageContainer">
+        <h2>Saved Images</h2><!-- Header to show images -->
+        <div id="imageGrid">
+            <!--Javascript fills this-->
+        </div>
+    </div>
+    <!-- saved articles -->
+    <div id="articles">
+        <h2>Saved Articles</h2><!-- Header to show articles -->
+        <!--Javascript fills this-->
+    </div>
+    <!-- saved links -->
+    <div id="links">
+        <h2>Links</h2><!-- Header to show links -->
+        <!--Javascript fills this-->
+    </div>
+
+    <!--Script-->
+    <script type="text/javascript" src="../scripts/saveForLater.js"></script><!-- script source used to construct this page according to user input -->
+</body>
+</html>

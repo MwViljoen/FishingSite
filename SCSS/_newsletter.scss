@@ -1,0 +1,97 @@
+//https://www.w3schools.com/howto/howto_css_newsletter.asp
+form {
+  font-family: $text-font;
+  padding: 20px;
+
+  .container {
+    padding: 20px;
+    background-color: color(primary);
+  }
+    
+  input[type=text], input[type=submit] {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+    
+  input[type=checkbox] {
+    margin-top: 16px;
+  }
+    
+  input[type=submit] {
+    background-color: color(secondary);
+    color: color(text-primary);
+    border: none;
+  }
+    
+  input[type=submit]:hover {
+    opacity: 0.8;
+  }
+}
+
+#commentsContainer{
+  h2{
+    text-align: center;
+  }
+
+  h3{
+    font-size: 20px;
+    padding-left: 20px;
+    font-weight: 600;
+  }
+
+  h5{
+    padding-top: 10px;
+  }
+
+  #commentsHeader{
+    cursor: pointer;
+  }
+
+  #commentsDropdown{
+    margin: 0 auto;
+    max-width: 80%;
+
+    #commentName{
+      width: 100%;
+    }
+
+    #comment{
+      width: 100%;
+    }
+
+    #commentsWrapper{
+      background-color: color(text-primary);
+      color: black;
+      margin-top: 10px;
+    }
+
+    #submitCommentBtn{
+      background-color: rgba(color(tertiary),0.6);
+      padding: 5px 10px;
+      border: 2px solid color(text-primary);
+      border-radius: 5px;
+      color: color(text-primary);
+      box-shadow: 2px 2px 2px rgb(43, 42, 42);
+      outline: none;
+    }
+  }
+}
+
+#contact{
+  padding: 10px 10px;
+  text-align: center;
+
+  i{
+    margin: 0 auto;
+    width: 100%;
+  }
+}
+
+#forms{
+  padding: 10px 20px;
+  background-color: color(tertiary);
+}

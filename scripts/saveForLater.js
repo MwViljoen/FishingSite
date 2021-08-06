@@ -81,7 +81,7 @@ function addLinks(){
 function createHeadings(){
     let allPs = document.querySelectorAll('p'); // select all p tags
     allPs.forEach(function(i){ // for each p tag 
-        let iLength = i.outerText.length; // find length
+        let iLength = i.innerText.length; // find length
         if(iLength <= 35){// if length is short make it a heading
             i.style.fontSize = "30px";
             i.style.fontWeight = "500";

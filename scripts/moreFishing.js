@@ -79,7 +79,7 @@ function moveToLocal(e){
 
     if(className === "mof-text"){
         content.forEach(function(i){
-            article.push(i.outerText);
+            article.push(i.innerText);
         })
         sessionStorage.setItem("mofArticles", JSON.stringify(article));
         // hiding button

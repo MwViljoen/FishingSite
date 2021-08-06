@@ -28,7 +28,7 @@ function myLoad(){ // checking if page is new or already run before
 
             element.className = classes;
         });
-        // if user moved an item to save folder the button will be hidden afterwards i fpage is left and came back later the button will be hidden again
+        // if user moved an item to save folder the button will be hidden afterwards if page is left and came back later the button will be hidden again
         // using id's to hide the buttons that have already been clicked on
         aboutButtons.forEach(function(i){
             let btnElement = document.getElementById(i);
@@ -56,7 +56,7 @@ function moveToLocal(e){
     //  if name of class is a text class for text then the text will be taken and stored in an array
     if(className === "about-card-1-text-container" || className === "about-card-2-text-container"){
         content.forEach(function(i){
-            article.push(i.outerText);
+            article.push(i.innerText);
         });
         sessionStorage.setItem("aboutMeArticles", JSON.stringify(article));// array is then stored in sessionstorage
         // hiding button, after the data is fetched and stored. the button will be hidden so the user can only add that data once

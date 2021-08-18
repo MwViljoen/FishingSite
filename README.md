@@ -48,4 +48,4 @@ Has similar functionality as the about me page. Users can also leave comments on
 Here the saved items are reconstructed according to the users choice and can be viewed at any time.
 
 
-![Live Web](https://mwviljoen.github.io/FishingSite/)
+[Live Web](https://mwviljoen.github.io/FishingSite/)
